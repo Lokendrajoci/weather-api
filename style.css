@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3a3434;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.roboto-condensed-uniquifier {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.weatherBody {
+    background-color: pink;
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    border-radius: 5px;
+    position: absolute;
+}
+
+
+.weatherTitle {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 2rem;
+    position: relative;
+    bottom: 26px;
+}
+
+.weatherBody .location {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+.laatDiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.longDiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.inputStyle{
+    border: 2px solid black;
+    height:5vh ; 
+    padding-left:10px ;
+    font-size: 20px;
+}
+
+.find{
+    display: flex;
+    width: 93%;
+    justify-content: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    
+}
+
+.findButton{
+    width: 20%;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 20px;
+    background-color: #a2a8d3;
+    color: black;
+    border-radius: 2%;
+    margin-bottom: 10px;
+}
+
+.weatherDescription{
+     
+   
+    width: 80%;
+    height: 10vh;
+    border: 2px solid #352f44;
+    background-color: white;
+    padding: 10px;
+    margin-left: 15%;
+}

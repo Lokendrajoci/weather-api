@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="roboto-condensed-uniquifier">
+    <div class="weatherBody">
+        <div class="weatherTitle">
+            <p>Today's Weather</p>
+        </div>
+
+
+        <div class="location">
+            <div class="laatDiv">
+                <div class="latLabel">
+                    <label for="latitude">LATITUDE: </label>
+                </div>
+                <div class="latInput">
+                    <input type="number" id="latitude" class="inputStyle roboto-condensed-uniquifier" name="latitude">
+                </div>
+
+            </div>
+
+            <div class="longDiv">
+
+                <div class="longLabel" style="position: relative; left: 3px;">
+                    <label for="longitude">LONGITUDE: </label>
+                </div>
+                <div class="longInput" style="position: relative;right: 3px;">
+                    <input type="number" id="longitude" class="inputStyle roboto-condensed-uniquifier" name="longitude">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="find">
+            <button class="findButton roboto-condensed-uniquifier">Find</button>
+        </div>
+
+
+
+
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
